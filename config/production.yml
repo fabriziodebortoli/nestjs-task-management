@@ -1,2 +1,11 @@
+server:
+  origin: http://dibo-nestjs-task-management-frontend.s3-website.eu-central-1.amazonaws.com
+
 db:
+  host: 'localhost'
+  username: 'postgres'
+  password: '666'
   synchronize: false
+
+jwt:
+  secret: 'topSecret51'
